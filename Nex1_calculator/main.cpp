@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "sub.h"
 using namespace std;
 
 int main() {
@@ -8,4 +8,6 @@ int main() {
 	a = 500;
 	b = 25;
 	// 각자 구현한 함수로 사칙연산 진행
+	auto ret = sub(a, b);
+	
 }
