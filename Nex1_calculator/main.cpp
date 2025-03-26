@@ -1,4 +1,8 @@
 #include <iostream>
+
+
+#include "div.h"
+
 #include "sub.h"
 using namespace std;
 
@@ -13,6 +17,11 @@ int main() {
 	int a, b;
 	a = 500;
 	b = 25;
-	// °¢ÀÚ ±¸ÇöÇÑ ÇÔ¼ö·Î »çÄ¢¿¬»ê ÁøÇà
+	// ê°ì êµ¬í˜„í•œ í•¨ìˆ˜ë¡œ ì‚¬ì¹™ì—°ì‚° ì§„í–‰
+
+	double divTest1 = 2.5 , divTest2 = 1.2;
+	cout << "div(divTest1,divTets2)" << endl;
+	cout << div(divTest1,divTets2) << endl;
+
 	auto ret = sub(a, b);	
 }
