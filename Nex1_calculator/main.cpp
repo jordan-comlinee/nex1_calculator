@@ -5,7 +5,7 @@ using namespace std;
 template<typename T>
 
 T plus(T a, T b){
-	retrun a + b;
+	return a + b;
 }
 
 int main() {
